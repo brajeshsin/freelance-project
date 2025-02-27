@@ -23,8 +23,8 @@ const Hero = () => {
             </Typography>
           </Box>
         </Grid2>
-        <Grid2 size={4}>v.v.v.v.</Grid2>
-        <Grid2 size={4}>v.v.v.v.</Grid2>
+        <Grid2 size={4}>Work on progress..</Grid2>
+        <Grid2 size={4}>Work on progress</Grid2>
       </Grid2>
     </Container>
   );
