@@ -3,10 +3,10 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <Container>
+    <Container sx={{ pt: 2, pb: 2 }}>
       <Grid2 container spacing={2}>
         <Grid2
-          size={4}
+          size={{ xs: 12, md: 4 }}
           sx={{
             display: "flex",
             justifyContent: "center",
@@ -23,8 +23,12 @@ const Hero = () => {
             </Typography>
           </Box>
         </Grid2>
-        <Grid2 size={4}>Work on progress..</Grid2>
-        <Grid2 size={4}>Work on progress</Grid2>
+        <Grid2 size={{ xs: 12, md: 4 }} xs={12}>
+          <Typography sx={{ color: "orange" }}> Work on progress..</Typography>
+        </Grid2>
+        <Grid2 size={{ xs: 12, md: 4 }} xs={12}>
+          <Typography sx={{ color: "orange" }}> Work on progress..</Typography>
+        </Grid2>
       </Grid2>
     </Container>
   );
