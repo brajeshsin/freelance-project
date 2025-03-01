@@ -133,7 +133,7 @@ const NavBar = () => {
                 component="img"
                 src="https://www.freeiconspng.com/thumbs/hospital-icon/ambulance-cross-hospital-icon-11.png"
                 alt="img"
-                sx={{ width: { xs: "80%", md: "30%" } }}
+                sx={{ width: { xs: "100%", md: "30%" } }}
               />
             </Typography>
           </Grid>
