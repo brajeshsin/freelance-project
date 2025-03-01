@@ -344,7 +344,7 @@ const Hero = () => {
           <Grid item xs={12} md={4}>
             <Typography sx={{ color: "orange" }}>
               {" "}
-              Work in progress...
+              Under the development phase...
             </Typography>
             <Box display="flex" justifyContent="center" alignItems="center">
               <CircularProgress sx={{ color: "orange" }} />
