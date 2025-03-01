@@ -132,6 +132,7 @@ import {
   IconButton,
   Button,
   Link,
+  CircularProgress,
 } from "@mui/material";
 import CalendarTodayIcon from "@mui/icons-material/CalendarToday";
 
@@ -289,8 +290,6 @@ const Hero = () => {
               </Button>
             </Box>
           </Grid>
-
-          {/** Other Grid Sections */}
           <Grid
             item
             xs={12}
@@ -347,6 +346,9 @@ const Hero = () => {
               {" "}
               Work in progress...
             </Typography>
+            <Box display="flex" justifyContent="center" alignItems="center">
+              <CircularProgress sx={{ color: "orange" }} />
+            </Box>
           </Grid>
         </Grid>
       </Container>
