@@ -315,7 +315,7 @@ const Hero = () => {
                 lineHeight: "30px",
               }}
             >
-              Dr. Vivek Goel is a distinguished Nephrologist, transplant
+              Dr. Ankit Singh is a distinguished Nephrologist, transplant
               physician, and educator, currently serving patients in India. He
               is committed to providing compassionate, personalized care to his
               patients, utilizing the latest advancements in nephrology to
