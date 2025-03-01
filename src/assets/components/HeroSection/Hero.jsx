@@ -179,6 +179,7 @@ const Hero = () => {
               </Typography>
 
               <TextField
+                required
                 placeholder="Name"
                 fullWidth
                 sx={{
@@ -200,6 +201,7 @@ const Hero = () => {
               />
 
               <TextField
+                required
                 placeholder="Mobile"
                 fullWidth
                 sx={{
@@ -220,6 +222,7 @@ const Hero = () => {
               />
 
               <TextField
+                required
                 placeholder="Email"
                 fullWidth
                 sx={{
@@ -241,6 +244,7 @@ const Hero = () => {
               />
 
               <TextField
+                required
                 placeholder="Date"
                 type="date"
                 fullWidth
