@@ -130,9 +130,10 @@ const NavBar = () => {
               }}
             >
               <Box
-                component={"img"}
-                src="https://www.drvivekgoelnephro.com/img/logo3.png"
+                component="img"
+                src="https://www.freeiconspng.com/thumbs/hospital-icon/ambulance-cross-hospital-icon-11.png"
                 alt="img"
+                sx={{ width: { xs: "80%", md: "30%" } }}
               />
             </Typography>
           </Grid>
