@@ -16,21 +16,18 @@ export default function Sliderr() {
       title: "Innovative Technologies",
       subtitle:
         "We are fully committed to achieve and exceed our customer's expectations in all the fields be it quality, delivery",
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4mXo5KDbVQinRB6ZuyARjXI1tbpb3o6WM-w&s",
+      image: "https://www.yuktimetallics.com/img/slider/slider1.jpg",
     },
     {
       title: "High Quality Engineering Components",
       subtitle:
         " The company has a wide range of machines and capability to make many more with the vast range of infrastructure and dedicated suppliers.",
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkDLCVD-85ItcYHpcm7U9mWqs_pG8XAT-ikw&s",
+      image: "https://www.yuktimetallics.com/img/slider/slider2.jpg",
     },
     {
       title: "Designer Laser Cut Application",
       subtitle: "Expert designs using the latest laser cutting technology",
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA3GIBZozRPg0VNTGaW00ae6eW0nrD9H2NEg&s",
+      image: "https://www.yuktimetallics.com/img/slider/slider3.jpg",
     },
   ];
 
