@@ -135,6 +135,8 @@ import {
   CircularProgress,
 } from "@mui/material";
 import CalendarTodayIcon from "@mui/icons-material/CalendarToday";
+import ButtonAni from "./ButtonAni";
+import NewButton from "./NewButton";
 
 const Hero = () => {
   const [selectedDate, setSelectedDate] = useState("");
@@ -277,7 +279,7 @@ const Hero = () => {
                   },
                 }}
               />
-              <Button
+              {/* <Button
                 variant="contained"
                 sx={{
                   mt: "10px",
@@ -287,7 +289,8 @@ const Hero = () => {
                 }}
               >
                 Book Appointment
-              </Button>
+              </Button> */}
+              <NewButton />
             </Box>
           </Grid>
           <Grid
