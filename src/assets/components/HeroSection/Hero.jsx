@@ -135,7 +135,6 @@ import {
   CircularProgress,
 } from "@mui/material";
 import CalendarTodayIcon from "@mui/icons-material/CalendarToday";
-import ButtonAni from "./ButtonAni";
 import NewButton from "./NewButton";
 
 const Hero = () => {
