@@ -5,6 +5,8 @@ import NavBar from "./assets/components/NavBar";
 import Sliderr from "./assets/components/Sliderr";
 import LeftNav from "./assets/components/LeftNav";
 import Hero from "./assets/components/HeroSection/Hero";
+import FullImg from "./assets/components/HeroSection/FullImg";
+import Treatment from "./assets/components/treatmentoffered/Treatment";
 
 const App = () => {
   return (
@@ -13,6 +15,8 @@ const App = () => {
       <NavBar />
       <Sliderr />
       <Hero />
+      <FullImg />
+      <Treatment />
     </>
   );
 };

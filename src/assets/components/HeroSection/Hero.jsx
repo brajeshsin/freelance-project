@@ -347,12 +347,11 @@ const Hero = () => {
             item
             xs={12}
             md={4}
-            sx={{
-              overflow: "hidden",
-              display: "flex",
-
-              justifyContent: "flex-end",
-            }}
+            // sx={{
+            //   overflow: "hidden",
+            //   display: "flex",
+            //   justifyContent: "flex-end",
+            // }}
           >
             {/* <Box display="flex" justifyContent="center" alignItems="center">
               <CircularProgress sx={{ color: "orange" }} />
@@ -360,7 +359,7 @@ const Hero = () => {
             <Box
               sx={{
                 height: "400px",
-                width: "500px",
+                width: "100%",
                 bgcolor: "gray",
                 border: "10px solid #0b9b8f",
                 transition: "border 0.6s ease-in-out",
@@ -380,6 +379,24 @@ const Hero = () => {
                   display: "block",
                 }}
               />
+            </Box>
+            <Box
+              sx={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                textAlign: "center",
+              }}
+            >
+              <Typography
+                sx={{ mt: 2, fontSize: "35px", fontWeight: "800 !important" }}
+              >
+                Dr. ANKIT SINGH
+              </Typography>
+              <Typography sx={{ color: "#0b9b8f" }}>
+                Consultant Nephrologist & Kidney Transplant Physician
+              </Typography>
             </Box>
           </Grid>
         </Grid>
