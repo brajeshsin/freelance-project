@@ -343,13 +343,43 @@ const Hero = () => {
               Read more...
             </Link>
           </Grid>
-          <Grid item xs={12} md={4}>
-            <Typography sx={{ color: "orange" }}>
-              {" "}
-              Under the development phase...
-            </Typography>
-            <Box display="flex" justifyContent="center" alignItems="center">
+          <Grid
+            item
+            xs={12}
+            md={4}
+            sx={{
+              overflow: "hidden",
+              display: "flex",
+
+              justifyContent: "flex-end",
+            }}
+          >
+            {/* <Box display="flex" justifyContent="center" alignItems="center">
               <CircularProgress sx={{ color: "orange" }} />
+            </Box> */}
+            <Box
+              sx={{
+                height: "400px",
+                width: "500px",
+                bgcolor: "gray",
+                border: "10px solid #0b9b8f",
+                transition: "border 0.6s ease-in-out",
+                "&:hover": {
+                  border: "10px solid #ccecea",
+                },
+                overflow: "hidden", // Ensures no overflow issues
+              }}
+            >
+              <Box
+                component="img"
+                src="https://www.drvivekgoelnephro.com/img/team/team-1.png"
+                sx={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                  display: "block",
+                }}
+              />
             </Box>
           </Grid>
         </Grid>
