@@ -89,7 +89,7 @@ const VideoSection = () => {
         >
           <Box>
             <iframe
-              width="400"
+              width="100%"
               height="315"
               src="https://www.youtube.com/embed/dQw4w9WgXcQ"
               title="YouTube video player"
