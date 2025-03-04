@@ -7,6 +7,8 @@ import LeftNav from "./assets/components/LeftNav";
 import Hero from "./assets/components/HeroSection/Hero";
 import FullImg from "./assets/components/HeroSection/FullImg";
 import Treatment from "./assets/components/treatmentoffered/Treatment";
+import Specialities from "./assets/components/specialities/Specialities";
+import BoxBg from "./assets/components/specialities/BoxBg";
 
 const App = () => {
   return (
@@ -17,6 +19,7 @@ const App = () => {
       <Hero />
       <FullImg />
       <Treatment />
+      <BoxBg />
     </>
   );
 };

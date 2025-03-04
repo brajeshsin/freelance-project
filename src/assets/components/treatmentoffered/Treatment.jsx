@@ -308,20 +308,6 @@ const Treatment = () => {
           ))}
         </Grid2>
       </Box>
-      <Box
-        sx={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          textAlign: "center",
-          pb: 4,
-        }}
-      >
-        <Typography sx={{ color: "orange", fontSize: "30px" }}>
-          Under the development....
-        </Typography>
-        <CircularProgress sx={{ color: "orange" }} />
-      </Box>
     </Container>
   );
 };
