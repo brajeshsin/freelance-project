@@ -99,7 +99,7 @@ const cardData = [
     image: "https://www.drvivekgoelnephro.com/img/ic1.png",
     title: "Renal Diet Counselling",
     description:
-      "A renal diet focuses on low sodium, phosphorus, and protein intake while ensuring proper nutrition.",
+      "A renal diet is one that is low in sodium, phosphorous, and protein. It emphasizes consuming high-quality protein and usually limiting fluids. Some patients may also need to limit potassium and calcium.",
   },
   {
     id: 1,
@@ -248,7 +248,12 @@ export default function Specialities() {
                     padding: 2,
                   }}
                 >
-                  <Typography variant="body2" textAlign="center" color="white">
+                  <Typography
+                    variant="body2"
+                    textAlign="center"
+                    color="white"
+                    sx={{ lineHeight: "35px" }}
+                  >
                     {card.description}
                   </Typography>
                 </Card>
