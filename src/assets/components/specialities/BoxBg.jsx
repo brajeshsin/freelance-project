@@ -35,23 +35,52 @@ const BoxBg = () => {
         </Typography>
       </Box>
       <Container>
+        {/* <Box>
+          <Box
+            sx={{
+              width: "20%",
+              border: "1px solid black",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              textAlign: "center",
+              bgcolor: "#0b9b7f6b",
+            }}
+          >
+            <Typography
+              sx={{ color: "yellow", fontSize: "36px", fontWeight: 700 }}
+            >
+              Specialities
+            </Typography>
+          </Box>
+        </Box> */}
         <Box
           sx={{
-            width: "20%",
-            border: "1px solid black",
             display: "flex",
-            justifyContent: "center",
+            justifyContent: { xs: "center", md: "flex-start" },
             alignItems: "center",
             textAlign: "center",
-            bgcolor: "#0b9b7f6b",
           }}
         >
-          <Typography
-            sx={{ color: "yellow", fontSize: "36px", fontWeight: 700 }}
+          <Box
+            sx={{
+              width: { xs: "80%", md: "20%" },
+              border: "1px solid black",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              textAlign: "center",
+              bgcolor: "#0b9b7f6b",
+            }}
           >
-            Specialities
-          </Typography>
+            <Typography
+              sx={{ color: "yellow", fontSize: "36px", fontWeight: 700 }}
+            >
+              Specialities
+            </Typography>
+          </Box>
         </Box>
+
         <Specialities />
       </Container>
     </Box>
