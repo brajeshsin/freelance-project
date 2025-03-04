@@ -10,6 +10,7 @@ import Treatment from "./assets/components/treatmentoffered/Treatment";
 import Specialities from "./assets/components/specialities/Specialities";
 import BoxBg from "./assets/components/specialities/BoxBg";
 import ClinicDetails from "./assets/components/clinicdetails/ClinicDetails";
+import Publications from "./assets/components/publications/Publications";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
       <Treatment />
       <BoxBg />
       <ClinicDetails />
+      <Publications />
     </>
   );
 };

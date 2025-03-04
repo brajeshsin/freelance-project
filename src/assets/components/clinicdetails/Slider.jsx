@@ -122,7 +122,12 @@ export default function Slider() {
                 width="500"
                 height="450"
               ></iframe>
-              <Box sx={{ display: "flex", justifyContent: "space-between" }}>
+              <Box
+                sx={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                }}
+              >
                 <Typography>Appolo Clinic</Typography>
               </Box>
             </Box>
